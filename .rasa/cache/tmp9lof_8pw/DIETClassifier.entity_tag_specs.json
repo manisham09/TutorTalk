@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-competitive coder",
+      "2": "I-competitive coder",
+      "3": "L-competitive coder",
+      "4": "U-competitive coder",
+      "5": "B-service based company",
+      "6": "I-service based company",
+      "7": "L-service based company",
+      "8": "U-service based company",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-competitive coder": 1,
+      "I-competitive coder": 2,
+      "L-competitive coder": 3,
+      "U-competitive coder": 4,
+      "B-service based company": 5,
+      "I-service based company": 6,
+      "L-service based company": 7,
+      "U-service based company": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

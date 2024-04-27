@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-competitive coder",
+      "2": "I-competitive coder",
+      "3": "L-competitive coder",
+      "4": "U-competitive coder",
+      "5": "B-resources for competitive programming",
+      "6": "I-resources for competitive programming",
+      "7": "L-resources for competitive programming",
+      "8": "U-resources for competitive programming",
+      "9": "B-service based company",
+      "10": "I-service based company",
+      "11": "L-service based company",
+      "12": "U-service based company",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-competitive coder": 1,
+      "I-competitive coder": 2,
+      "L-competitive coder": 3,
+      "U-competitive coder": 4,
+      "B-resources for competitive programming": 5,
+      "I-resources for competitive programming": 6,
+      "L-resources for competitive programming": 7,
+      "U-resources for competitive programming": 8,
+      "B-service based company": 9,
+      "I-service based company": 10,
+      "L-service based company": 11,
+      "U-service based company": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

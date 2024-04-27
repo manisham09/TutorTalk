@@ -1,0 +1,155 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - excelsum
+  - excelavg
+  - excelmax
+  - excelmin
+  - exceltoday
+  - excelif
+  - excelconc
+  - excellen
+  - exceltrim
+  - excellefttext
+  - excelrighttext
+  - excelmidextr
+  - excelupper
+  - excellower
+  - excelproper
+  - excelsubtot
+  - servicecrack
+  - competitive_coder
+  - resources_for_competitive_programming
+
+entities:
+  - service based company
+  - competitive coder
+  - resources for competitive programming
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_excelsum:
+    - text: "
+        Example: =SUM(A1:A5)
+        This formula adds up the values in cells A1 to A5."
+
+  utter_excelavg:
+    - text: "
+        AVERAGE formula:
+        Example: =AVERAGE(B1:B10)
+        This formula calculates the average of the values in cells B1 to B10."
+
+  utter_excelmax:
+    - text: "
+        MAX formula:
+        Example: =MAX(D1:D6)
+        This formula finds the maximum value in the range D1 to D6."
+
+  utter_excelmin:
+    - text: "
+        MIN formula:
+        Example: =MIN(E1:E4)
+        This formula finds the minimum value in the range E1 to E4."
+
+  utter_exceltoday:
+    - text: "
+        TODAY formula:
+        Example: =TODAY()
+        This formula returns the current date."
+
+  utter_excelif:
+    - text: "
+        IF formula:
+        Example: =IF(F1>10, \"Pass\", \"Fail\")
+        This formula checks if the value in cell F1 is greater than 10. If it is, it returns \"Pass\"; otherwise, it returns \"Fail\"."
+
+  utter_excelconc:
+    - text: "
+        CONCATENATE formula:
+        Example: =CONCATENATE(\"Hello\", \"World\")
+        This formula combines the text \"Hello\" and \"World\" to create the string \"Hello World\"."
+
+  utter_excellen:
+    - text: "
+        LEN formula:
+        Example: =LEN(H1)
+        This formula calculates the number of characters in the text contained in cell H1."
+
+  utter_exceltrim:
+    - text: "
+        TRIM formula:
+        Example: =TRIM(I1)
+        This formula removes excess spaces from the text in cell I1."
+
+  utter_excellefttext:
+    - text: "
+        LEFT formula:
+        Example: =LEFT(J1, 5)
+        This formula extracts the leftmost 5 characters from the text in cell J1."
+
+  utter_excelrighttext:
+    - text: "
+        RIGHT formula:
+        Example: =RIGHT(K1, 5)
+        This formula extracts the rightmost 5 characters from the text in cell K1."
+
+  utter_excelmidextr:
+    - text: "
+        MID formula:
+        Example: =MID(L1, 3, 5)
+        This formula extracts 5 characters starting from the 3rd character of the text in cell L1."
+
+  utter_excelupper:
+    - text: "
+        UPPER formula:
+        Example: =UPPER(M1)
+        This formula converts the text in cell M1 to uppercase."
+
+  utter_excellower:
+    - text: "
+        LOWER formula:
+        Example: =LOWER(N1)
+        This formula converts the text in cell N1 to lowercase."
+
+  utter_excelproper:
+    - text: "
+        PROPER formula:
+        Example: =PROPER(O1)
+        This formula capitalizes the first letter of each word in the text in cell O1."
+
+  utter_excelsubtot:
+    - text: "
+        SUBTOTAL formula:
+        Example: =SUBTOTAL(1, AQ1:AQ10)
+        This formula calculates the sum of the visible cells in the range AQ1 to AQ10, ignoring any hidden rows."
+
+actions:
+  - action_servicebc
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

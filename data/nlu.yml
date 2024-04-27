@@ -1,0 +1,167 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: excelsum
+  examples: | 
+    - how to do sum in the excelsheet
+    - how to calculate sum
+    - ways to calculate sum
+- intent: excelavg
+  examples: | 
+    - how to do average in the excelsheet
+    - how to calculate average
+    - ways to calculate average
+- intent: excelmax
+  examples: | 
+    - how to do calculate maximum in the excelsheet
+    - how to calculate max
+    - ways to calculate max
+- intent: excelmin
+  examples: | 
+    - how to do minimum in the excelsheet
+    - how to calculate minimum
+    - ways to calculate minimum
+- intent: exceltoday
+  examples: | 
+    - how to do calc today date in the excelsheet
+    - how to calculate today's date
+    - current date?
+- intent: excelif
+  examples: | 
+    - how to compare in excel
+    - how to check whether a value is greater than or lesser than it
+- intent: excelconc
+  examples: | 
+    - how to concatenate two strings in excel
+- intent: excellen
+  examples: | 
+    - how to calculate the length of the string in excelsheet
+    - how to know the no.of characters present in a string
+- intent: exceltrim
+  examples: | 
+    - how to remove the excess spaces from the text
+- intent: excellefttext
+  examples: | 
+    - how to extract leftmost characters from the text
+- intent: excelrighttext
+  examples: | 
+    - how to extract rightmost characters from the text
+- intent: excelmidextr
+  examples: | 
+    - how to extract some of the characters in the middle of the string
+- intent: excelupper
+  examples: | 
+    - how to convert the characters into uppercase
+- intent: excellower
+  examples: | 
+    - how to convert the characters into lowercase
+- intent: excelproper
+  examples: | 
+    - how to capitalize only first character in the text
+- intent: excelsubtot
+  examples: |
+    - how to calculate the sum of the values in the given range
+- intent: servicecrack
+  examples: | 
+    - how to crack [service based company](service based company)
+    - what is the roadmap to get into [service based company](service based company)
+    - placement preparation for [serivce based company](service based company)?
+- intent: competitive_coder
+  examples: |
+    - how to become a [competitive coder](competitive coder)?
+- intent: resources_for_competitive_programming
+  examples: |
+    - give me some resources need to be followed in order to become a [competitive programmer](resources for competitive programming)
+    
+
+
+

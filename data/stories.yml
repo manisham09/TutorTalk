@@ -1,0 +1,81 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: excelrelated
+  steps:
+  - intent: excelsum
+  - action: utter_excelsum
+- story: excelavg
+  steps:
+  - intent: excelavg
+  - action: utter_excelavg
+- story: exceld
+  steps:
+  - intent: excelmax
+  - action: utter_excelmax
+  - intent: excelmin
+  - action: utter_excelmin
+  - intent: exceltoday
+  - action: utter_exceltoday
+  - intent: excelif
+  - action: utter_excelif
+  - intent: excelconc
+  - action: utter_excelconc
+  - intent: excellen
+  - action: utter_excellen
+  - intent: exceltrim
+  - action: utter_exceltrim
+  - intent: excellefttext
+  - action: utter_excellefttext
+  - intent: excelmidextr
+  - action: utter_excelmidextr
+  - intent: excelrighttext
+  - action: utter_excelrighttext
+  - intent: excelupper
+  - action: utter_excelupper
+  - intent: excellower
+  - action: utter_excellower
+  - intent: excelproper
+  - action: utter_excelproper
+  - intent: excelsubtot
+  - action: utter_excelsubtot
+
+- story: roadmap_for_servicebc
+  steps:
+  - intent: servicecrack
+  - action: action_servicebc
+- story: roadmap for competitive programming
+  steps:
+  - intent: competitive_coder
+  - action: action_servicebc
+- story: resources for competitive programming
+  steps:
+  - intent: resources_for_competitive_programming
+  - action: action_servicebc
